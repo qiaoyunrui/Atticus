@@ -1,5 +1,10 @@
 (ns me.juhezi.core)
 
+(def size 50)
+(def chromosome_size 25)
+(def crossover_probability 0.8)
+(def mutation_probability 0.9)
+
 ; 计算个体生存概率
 ; 个体适应度 / 所有个体适应度之和
 ; complete
@@ -31,7 +36,7 @@
 ; complete
 (defn select
   [data]
-  (wrand (map #(nth % 2) data)))
+  (wrand (map #(nth % 2 0) data)))
 
 ; 染色体交叉
 ; 将两个染色体进行交叉配对，从而生成两个新的染色体
@@ -71,9 +76,10 @@
           (bit-or chromosome mask1))))))
 
 ; 种群的整个进化过程
+; 单个进化
 ; （对个体计算适应度）
 ; 计算个体的选择概率
-(defn evolve [data chromosome_size crossover_probability mutation_probability]
+(defn single_evolve [data chromosome_size crossover_probability mutation_probability]
   (let [index1 (select data)
         index2 (select data)
         individual1 (nth data index1)                       ;选择
@@ -95,6 +101,13 @@
                        new_individual2
                        itm))) data)))
 
+(defn evolve [data size chromosome_size crossover_probability mutation_probability]
+  (reduce (fn [m v]
+            (single_evolve m chromosome_size crossover_probability mutation_probability))
+          data
+          (range (/ size 2))))
 
-
-
+(defn main []
+  (evolve (me.juhezi.local-calculate/calculate
+            (me.juhezi.creator/create chromosome_size size))
+          size chromosome_size crossover_probability mutation_probability))
