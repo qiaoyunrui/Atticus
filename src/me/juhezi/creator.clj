@@ -8,5 +8,5 @@
 ; size 初代个体数
 ; complete
 (defn create [chromosome_size size]
-  (let [x (bigint (Math/pow 2 chromosome_size))]
+  (let [x (int (Math/pow 2 chromosome_size))]
     (repeatedly size #(conj [] (rand-int x) (rand-int x)))))
