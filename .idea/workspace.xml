@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b987f6fc-2c58-43c2-8ae6-440757cc1cd4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/juhezi/creator.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/juhezi/local_calculate.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/juhezi/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/juhezi/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/juhezi/creator.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/juhezi/creator.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
           <provider selected="true" editor-type-id="text-editor">
@@ -26,20 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creator.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="creator.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/local/Cellar/clojure/1.9.0.273/libexec/clojure-tools-1.9.0.273.jar!/clojure/core.clj">
+      <file leaf-file-name="local_calculate.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="4446" column="10" selection-start-line="4446" selection-start-column="10" selection-end-line="4446" selection-end-column="10" />
+            <state relative-caret-position="308">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -68,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/me/juhezi/core.clj" />
         <option value="$PROJECT_DIR$/src/me/juhezi/creator.clj" />
+        <option value="$PROJECT_DIR$/src/me/juhezi/local_calculate.clj" />
       </list>
     </option>
   </component>
@@ -133,9 +133,10 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="ReplState" timestamp="1527305848692">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1527316147322">{:repl-history {:ide [], :local [{:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(print \&quot;123\&quot;)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(range [1 10])&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(range 1 10)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(range 1 20)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 10 10)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 50)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 20)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type (Math/pow 2 20)) &quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(bigint (Math/pow 2 20)) &quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(bigint (Math/pow 2 10)) &quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(inc (bigint (Math/pow 2 10))) &quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(inc (bigint (Math/pow 2 100))) &quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(inc (bigint (Math /pow 2 100))) &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 10 50) &quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 4 50) &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 20 50) &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 30 50) &quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 10 10)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 10 12313)&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(car 1 2 3 4)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(1 (list 1 2 3 4))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;((list 1 2 3 4) 1)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(nth (list 1 2 3 4) 1)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(nth (list 1 2 3 4) 0)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(list [1 2 3 4] 1)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(list (1 2 3 4) 1)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(list '(1 2 3 4) 1)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;([1 2 3])&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(type [1 2 3])&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(type (list 1 2 3 4))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(conj [1 2 3 4] 5)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(conj [] 1 2)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(conj (list 1 2 4 5) 5)&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 25 50) &quot;, :offset 33, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -212,12 +213,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527303984643</updated>
-      <workItem from="1527303988214" duration="1848000" />
+      <workItem from="1527303988214" duration="4035000" />
+      <workItem from="1527316039675" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1848000" />
+    <option name="totallyTimeSpent" value="4143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,37 +234,37 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="right" x="0" y="45" width="1440" height="855" id="REPL" sideWeight="0.50128204" side_tool="true" type="WINDOWED" visible="true" weight="0.7539342" />
-      <window_info anchor="right" id="Leiningen" sideWeight="0.49871793" weight="0.3297568" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" x="0" y="45" width="1440" height="855" id="REPL" order="3" sideWeight="0.50128204" side_tool="true" type="WINDOWED" weight="0.7539342" />
+      <window_info anchor="right" id="Leiningen" order="3" sideWeight="0.49871793" weight="0.3297568" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948717" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,10 +281,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///usr/local/Cellar/clojure/1.9.0.273/libexec/clojure-tools-1.9.0.273.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
+        <state relative-caret-position="97812">
           <caret line="4446" column="10" selection-start-line="4446" selection-start-column="10" selection-end-line="4446" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -295,8 +318,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/clojure/1.9.0.273/libexec/clojure-tools-1.9.0.273.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4446" column="10" selection-start-line="4446" selection-start-column="10" selection-end-line="4446" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
