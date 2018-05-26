@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Clojure SDK" type="Clojure">
+    <CLASSES>
+      <root url="jar:///usr/local/Cellar/clojure/1.9.0.273/libexec/clojure-tools-1.9.0.273.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
