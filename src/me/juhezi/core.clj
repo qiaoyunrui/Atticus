@@ -43,4 +43,16 @@
 
 
 ; 染色体变异模拟
-(defn mutate [data])
+; mutation_probability 变异概率
+; complete
+(defn mutate [chromosome chromosome_size mutation_probability]
+  (let [probability (rand 1)]
+    (if (> probability mutation_probability)
+      chromosome
+      (let [t (rand-int chromosome_size)
+            mask1 (bit-shift-left 1 t)
+            mask2 (bit-and chromosome mask1)]
+        (println "t" t)
+        (if (> mask2 0)
+          (bit-and chromosome (bit-not mask2))
+          (bit-or chromosome mask1))))))
