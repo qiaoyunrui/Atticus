@@ -1,6 +1,8 @@
-(ns me.juhezi.core)
+(ns me.juhezi.core
+  (:require [me.juhezi.local-calculate :refer :all])
+  (:require [me.juhezi.creator :refer :all]))
 
-(def size 1000)
+(def size 50)
 (def chromosome_size 25)
 (def crossover_probability 0.7)
 (def mutation_probability 0.5)
@@ -78,7 +80,7 @@
 ; 选择两个染色体
 ; 进行交叉、变异
 ; 生成两个新的染色体
-(defn single_evolve [data chromosome_size crossover_probability mutation_probability]
+(defn single_chromosome_evolve [data chromosome_size crossover_probability mutation_probability]
   (let [index1 (select data)
         index2 (select data)
         individual1 (nth data index1)                       ;选择
@@ -97,32 +99,17 @@
 
 ; 循环 25 次
 ; 生成 50 个新的个体
-(defn evolve [data size chromosome_size crossover_probability mutation_probability]
+(defn single_individual_evolve [data size chromosome_size crossover_probability mutation_probability]
   (reduce (fn [children index]
-            (let [child (single_evolve data chromosome_size crossover_probability mutation_probability)]
+            (let [child (single_chromosome_evolve data chromosome_size crossover_probability mutation_probability)]
               (conj children (nth child 0) (nth child 1))))
           '() (range (/ size 2))))
 
-(defn main []
-  (evolve (me.juhezi.local-calculate/calculate
-            (me.juhezi.creator/create chromosome_size size) chromosome_size)
-          size chromosome_size crossover_probability mutation_probability))
 
-;(let [children '()]
-;  (repeat (size / 2) (let [child (single_evolve data chromosome_size crossover_probability mutation_probability)
-;                           (conj children (nth child 0) (nth child 1))]))
-;  children)
+; 单独一代进行计算
+(defn single-generation-evolve []
+  (single_individual_evolve (me.juhezi.local-calculate/calculate
+                              (me.juhezi.creator/create chromosome_size size) chromosome_size)
+                            size chromosome_size crossover_probability mutation_probability))
 
-;(map-indexed (fn [idx itm]
-;               (if (= idx index1)
-;                 new_individual1
-;                 (if (= idx index2)
-;                   new_individual2
-;                   itm))) data)
-
-;(reduce (fn [m v]
-;          (single_evolve m chromosome_size crossover_probability mutation_probability))
-;        data
-;        (range (/ size 2)))
-
-;(single_evolve data chromosome_size crossover_probability mutation_probability)
+(defn -main [] (println (single-generation-evolve)))
