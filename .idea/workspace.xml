@@ -18,17 +18,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creator.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="237">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="127" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -36,8 +27,17 @@
       <file leaf-file-name="local_calculate.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creator.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -48,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Clojure Namespace" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,8 +74,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/me/juhezi/creator.clj" />
         <option value="$PROJECT_DIR$/src/me/juhezi/local_calculate.clj" />
+        <option value="$PROJECT_DIR$/src/me/juhezi/other/Chromosome.java" />
+        <option value="$PROJECT_DIR$/src/me/juhezi/creator.clj" />
         <option value="$PROJECT_DIR$/src/me/juhezi/core.clj" />
       </list>
     </option>
@@ -94,10 +96,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="722" />
+    <option name="width" value="718" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -107,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,19 +128,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juhezi" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Atticus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="PersistentList&#9;PSI&#9;JAVA://clojure.lang.PersistentList" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shixi_yunrui/Developer/projects/Atticus/src/me/juhezi/creator.clj&#10;PersistentList&#9;PSI&#9;JAVA://clojure.lang.PersistentList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="cursive.last.file.extension./Users/shixi_yunrui/Developer/projects/Atticus/src" value="clj" />
@@ -151,7 +149,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="ReplState" timestamp="1527330918202">{:repl-history {:ide [], :local [{:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(print \&quot;123\&quot;)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(range [1 10])&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(range 1 10)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(range 1 20)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 10 10)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 50)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 20)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(type (Math/pow 2 20)) &quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(bigint (Math/pow 2 20)) &quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(bigint (Math/pow 2 10)) &quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(inc (bigint (Math/pow 2 10))) &quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(inc (bigint (Math/pow 2 100))) &quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(inc (bigint (Math /pow 2 100))) &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 10 50) &quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 4 50) &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 20 50) &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 30 50) &quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 10 10)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 10 12313)&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(car 1 2 3 4)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(1 (list 1 2 3 4))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;((list 1 2 3 4) 1)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(nth (list 1 2 3 4) 1)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(nth (list 1 2 3 4) 0)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(list [1 2 3 4] 1)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(list (1 2 3 4) 1)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(list '(1 2 3 4) 1)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;([1 2 3])&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(type [1 2 3])&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(type (list 1 2 3 4))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(conj [1 2 3 4] 5)&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(conj [] 1 2)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(conj (list 1 2 4 5) 5)&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 25 50) &quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate '([10 10] [30 30] [400 400]))&quot;, :offset 66, :ns &quot;user&quot;} {:command &quot;(+ '(1 2 3 4 5))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(+ [1 2 3 4 5])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(first [1 2 3])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(nfirst [1 2 3])&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(first [1 2 3] 2)\n&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3] 2)\n&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3] 1)\n&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(subvec [1 2 3] -1)\n        \n&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(butlast [1 2 3])\n        \n&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(butlast [1 2 3 5 6 7])\n        \n&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 2 3 4])\n &quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 ])\n &quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 3 4 5 6])\n &quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 3])\n &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1]) \n &quot;, :offset 31, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1527498253543">{:repl-history {:ide [], :local [{:command &quot;(me.juhezi.core/first-two [1 2 3 4])\n &quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 ])\n &quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 3 4 5 6])\n &quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 3])\n &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1]) \n &quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(apply #(+ (nth % 2)) '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 64, :ns &quot;user&quot;} {:command &quot;(apply + [1 2 3 4 5])&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(apply + ([1] [2] [3]))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(apply #(+ (nth % 2)) 0 '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 66, :ns &quot;user&quot;} {:command &quot;(reduce (fn [m v] (+ m (nth v 2))) 0 '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 79, :ns &quot;user&quot;} {:command &quot;(Math/random)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(rand 1)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(rand 20)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(filter &lt;= (range 20))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(filter #(&lt;= 1 %) (range 20))&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(filter #(&gt;= 10 %) (range 20))&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(conj [] [1 2] 0.5)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/calculate_survival_probability '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 89, :ns &quot;user&quot;} {:command &quot;(= [1 2] [1 2])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(= [1 2] [2 2])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(= [1 2] [2 1])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(rand-int [2000])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(rand-int 2000)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(rand-int 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(rand-int 2)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(rand-int 8)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(bit-shift-left 8 1)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(- (bigint (Math/pow 2 6)) 1)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(bit-shift-right 63N 2)&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;((Math/pow 2 6))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 6)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(bit-shift-right 63N 2N)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(bit-shift-right (int 63N) 2N)&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(bit-shift-right (int 63N) 2)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(bit-shift-right (int 6389089N) 2)&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 25)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 25))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 60))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 40))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 35))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 30))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 31))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 37 23 6 1.0)&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;100101 &quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;100101 10111&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;100111 10101&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(- 63 47)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/mutate 63 6 1.0)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(for [x [0 1 2 3 4 5]\n      :let [y (* x 3)]\n      :when (&gt; y 3)]\n  y)&quot;, :offset 70, :ns &quot;user&quot;} {:command &quot;(for [x [0 1 2 3 4 5]\n      :let [y]\n      :when (&gt; y 3)]\n  y)&quot;, :offset 62, :ns &quot;user&quot;} {:command &quot;(defn wrand\n  \&quot;given a vector of slice sizes, returns the index of a slice given a\n  random spin of a roulette wheel with compartments proportional to\n  slices.\&quot;\n  [slices]\n  (let [total (reduce + slices)\n        r (rand total)]\n    (loop [i 0 sum 0]\n      (if (&lt; r (+ (slices i) sum))\n        i\n        (recur (inc i) (+ (slices i) sum))))))&quot;, :offset 342, :ns &quot;user&quot;} {:command &quot;(reduce + '(0.3472222222222222 0.4861111111111111 0.16666666666666666))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;('(0.3472222222222222 0.4861111111111111 0.16666666666666666) 1)&quot;, :offset 64, :ns &quot;user&quot;} {:command &quot;(nth [1 2 3] 2)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(assoc [1 2 3 4] 2)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(assoc [1 2 3 4] 2 10)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(assoc '(1 2 3 4 5) 1 2)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(type '(1 2 3 4))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(set '(1 2 3 4))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(list '(1 2 3 4))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(vector-of '(1 2 3 4))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(vector '(1 2 3 4))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(vector? '(1 2 3 4))&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(seq '(1 2 3 4))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(list (seq '(1 2 3 4)))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(to-array '(1 2 3 4))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;'(to-array '(1 2 3 4))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]) 25 0.5 0.5)&quot;, :offset 121, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/select '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]))&quot;, :offset 110, :ns &quot;user&quot;} {:command &quot;(def data '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]))&quot;, :offset 97, :ns &quot;user&quot;} {:command &quot;(nth data 0)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth data 2)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth [100 200 0.3472222222222222] 0)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(nth [100 200 0.3472222222222222] 1)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(nth [0 0 0.16666666666666666] 0)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(nth [0 0 0.16666666666666666] 1)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 100 0 25 0.5)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 200 0 25 0.5)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(conj [] (me.juhezi.core/mutate (nth [0 100] 0) 25 0.5) ;变异\n      (me.juhezi.core/mutate (nth [0 200] 0) 25 0.5))&quot;, :offset 113, :ns &quot;user&quot;} {:command &quot;(conj [] (me.juhezi.core/mutate (nth [0 100] 1) 25 0.5) ;变异\n      (me.juhezi.core/mutate (nth [0 200] 1) 25 0.5))&quot;, :offset 113, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.5 0.5)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 5 1 0.5)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 0.5)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(me.juhezi.core/evolve data 25 0 0.5)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0 1)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0 0)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.5 0)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 0)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 1)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.9 0.8)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.1 0.1)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.9 0.9)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.2 0.2)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(range 20)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 50 25 0.2 0.2)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(data)&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;data&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 25 50)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(a 100)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/main)&quot;, :offset 21, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -230,12 +228,14 @@
       <updated>1527303984643</updated>
       <workItem from="1527303988214" duration="4035000" />
       <workItem from="1527316039675" duration="1000000" />
-      <workItem from="1527317052759" duration="13612000" />
+      <workItem from="1527317052759" duration="14302000" />
+      <workItem from="1527494401824" duration="1059000" />
+      <workItem from="1527495572169" duration="2668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18647000" />
+    <option name="totallyTimeSpent" value="23064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,11 +247,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="right" x="177" y="45" width="1043" height="855" id="REPL" order="3" sideWeight="0.50128204" side_tool="true" type="WINDOWED" visible="true" weight="0.7539342" />
@@ -268,10 +268,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948717" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948717" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13090129" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
@@ -295,6 +295,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -341,17 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="805" column="25" selection-start-line="805" selection-start-column="25" selection-end-line="805" selection-end-column="25" />
-          <folding>
-            <element signature="e#33242#33243#0" expanded="true" />
-            <element signature="e#33327#33328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -369,24 +386,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/Cellar/clojure/1.9.0.273/libexec/clojure-tools-1.9.0.273.jar!/clojure/core.clj">
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/java.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="4859" column="55" selection-start-line="4859" selection-start-column="55" selection-end-line="4859" selection-end-column="55" />
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/other/Chromosome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="374">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/clojure/1.9.0.273/libexec/clojure-tools-1.9.0.273.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5082" column="6" selection-start-line="5082" selection-start-column="6" selection-end-line="5082" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="237">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="127" selection-end-column="80" />
         </state>
       </provider>
     </entry>
