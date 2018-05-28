@@ -1,9 +1,9 @@
 (ns me.juhezi.core)
 
-(def size 50)
+(def size 1000)
 (def chromosome_size 25)
-(def crossover_probability 0.8)
-(def mutation_probability 0.9)
+(def crossover_probability 0.7)
+(def mutation_probability 0.5)
 
 ; 计算个体生存概率
 ; 个体适应度 / 所有个体适应度之和
@@ -96,7 +96,7 @@
     (list new_individual1 new_individual2)))                ; 返回两个新的
 
 ; 循环 25 次
-; 生成 50 个新的个体¬
+; 生成 50 个新的个体
 (defn evolve [data size chromosome_size crossover_probability mutation_probability]
   (reduce (fn [children index]
             (let [child (single_evolve data chromosome_size crossover_probability mutation_probability)]
@@ -105,7 +105,7 @@
 
 (defn main []
   (evolve (me.juhezi.local-calculate/calculate
-            (me.juhezi.creator/create chromosome_size size))
+            (me.juhezi.creator/create chromosome_size size) chromosome_size)
           size chromosome_size crossover_probability mutation_probability))
 
 ;(let [children '()]

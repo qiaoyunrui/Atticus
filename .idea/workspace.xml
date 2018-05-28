@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b987f6fc-2c58-43c2-8ae6-440757cc1cd4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/juhezi/RedisController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atticus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Atticus.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/juhezi/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/juhezi/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/juhezi/local_calculate.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/juhezi/local_calculate.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +24,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="127" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local_calculate.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="321">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -42,13 +39,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="local_calculate.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisController.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/juhezi/RedisController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Clojure Namespace" />
         <option value="Class" />
+        <option value="Clojure Namespace" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -74,9 +90,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/me/juhezi/local_calculate.clj" />
         <option value="$PROJECT_DIR$/src/me/juhezi/other/Chromosome.java" />
         <option value="$PROJECT_DIR$/src/me/juhezi/creator.clj" />
+        <option value="$PROJECT_DIR$/src/me/juhezi/redis_controller.clj" />
+        <option value="$PROJECT_DIR$/src/me/juhezi/redis-controller.kt" />
+        <option value="$PROJECT_DIR$/src/me/juhezi/RedisController.kt" />
+        <option value="$PROJECT_DIR$/src/me/juhezi/local_calculate.clj" />
         <option value="$PROJECT_DIR$/src/me/juhezi/core.clj" />
       </list>
     </option>
@@ -96,10 +115,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="722" />
-    <option name="width" value="718" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -137,19 +156,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/shixi_yunrui/Developer/projects/Atticus/src/me/juhezi/creator.clj&#10;PersistentList&#9;PSI&#9;JAVA://clojure.lang.PersistentList" />
+    <property name="SearchEverywhereHistoryKey" value="ca&#9;FILE&#9;file:///Users/shixi_yunrui/Developer/projects/Atticus/src/me/juhezi/local_calculate.clj&#10;PersistentList&#9;PSI&#9;JAVA://clojure.lang.PersistentList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="cursive.last.file.extension./Users/shixi_yunrui/Developer/projects/Atticus/src" value="clj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="ReplState" timestamp="1527498253543">{:repl-history {:ide [], :local [{:command &quot;(me.juhezi.core/first-two [1 2 3 4])\n &quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 ])\n &quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 3 4 5 6])\n &quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1 3])\n &quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/first-two [1]) \n &quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(apply #(+ (nth % 2)) '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 64, :ns &quot;user&quot;} {:command &quot;(apply + [1 2 3 4 5])&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(apply + ([1] [2] [3]))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(apply #(+ (nth % 2)) 0 '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 66, :ns &quot;user&quot;} {:command &quot;(reduce (fn [m v] (+ m (nth v 2))) 0 '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 79, :ns &quot;user&quot;} {:command &quot;(Math/random)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(rand 1)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(rand 20)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(filter &lt;= (range 20))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(filter #(&lt;= 1 %) (range 20))&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(filter #(&gt;= 10 %) (range 20))&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(conj [] [1 2] 0.5)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/calculate_survival_probability '([100 200 0.5] [100 200 0.7] [0 0 0.24]))&quot;, :offset 89, :ns &quot;user&quot;} {:command &quot;(= [1 2] [1 2])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(= [1 2] [2 2])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(= [1 2] [2 1])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(rand-int [2000])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(rand-int 2000)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(rand-int 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(rand-int 2)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(rand-int 8)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(bit-shift-left 8 1)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(- (bigint (Math/pow 2 6)) 1)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(bit-shift-right 63N 2)&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;((Math/pow 2 6))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 6)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(bit-shift-right 63N 2N)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(bit-shift-right (int 63N) 2N)&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(bit-shift-right (int 63N) 2)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(bit-shift-right (int 6389089N) 2)&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 25)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 25))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 60))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 40))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 35))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 30))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 31))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 37 23 6 1.0)&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;100101 &quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;100101 10111&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;100111 10101&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(- 63 47)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/mutate 63 6 1.0)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(for [x [0 1 2 3 4 5]\n      :let [y (* x 3)]\n      :when (&gt; y 3)]\n  y)&quot;, :offset 70, :ns &quot;user&quot;} {:command &quot;(for [x [0 1 2 3 4 5]\n      :let [y]\n      :when (&gt; y 3)]\n  y)&quot;, :offset 62, :ns &quot;user&quot;} {:command &quot;(defn wrand\n  \&quot;given a vector of slice sizes, returns the index of a slice given a\n  random spin of a roulette wheel with compartments proportional to\n  slices.\&quot;\n  [slices]\n  (let [total (reduce + slices)\n        r (rand total)]\n    (loop [i 0 sum 0]\n      (if (&lt; r (+ (slices i) sum))\n        i\n        (recur (inc i) (+ (slices i) sum))))))&quot;, :offset 342, :ns &quot;user&quot;} {:command &quot;(reduce + '(0.3472222222222222 0.4861111111111111 0.16666666666666666))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;('(0.3472222222222222 0.4861111111111111 0.16666666666666666) 1)&quot;, :offset 64, :ns &quot;user&quot;} {:command &quot;(nth [1 2 3] 2)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(assoc [1 2 3 4] 2)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(assoc [1 2 3 4] 2 10)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(assoc '(1 2 3 4 5) 1 2)&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(type '(1 2 3 4))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(set '(1 2 3 4))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(list '(1 2 3 4))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(vector-of '(1 2 3 4))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(vector '(1 2 3 4))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(vector? '(1 2 3 4))&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(seq '(1 2 3 4))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(list (seq '(1 2 3 4)))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(to-array '(1 2 3 4))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;'(to-array '(1 2 3 4))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]) 25 0.5 0.5)&quot;, :offset 121, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/select '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]))&quot;, :offset 110, :ns &quot;user&quot;} {:command &quot;(def data '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]))&quot;, :offset 97, :ns &quot;user&quot;} {:command &quot;(nth data 0)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth data 2)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth [100 200 0.3472222222222222] 0)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(nth [100 200 0.3472222222222222] 1)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(nth [0 0 0.16666666666666666] 0)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(nth [0 0 0.16666666666666666] 1)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 100 0 25 0.5)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 200 0 25 0.5)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(conj [] (me.juhezi.core/mutate (nth [0 100] 0) 25 0.5) ;变异\n      (me.juhezi.core/mutate (nth [0 200] 0) 25 0.5))&quot;, :offset 113, :ns &quot;user&quot;} {:command &quot;(conj [] (me.juhezi.core/mutate (nth [0 100] 1) 25 0.5) ;变异\n      (me.juhezi.core/mutate (nth [0 200] 1) 25 0.5))&quot;, :offset 113, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.5 0.5)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 5 1 0.5)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 0.5)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(me.juhezi.core/evolve data 25 0 0.5)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0 1)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0 0)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.5 0)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 0)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 1)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.9 0.8)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.1 0.1)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.9 0.9)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.2 0.2)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(range 20)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 50 25 0.2 0.2)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(data)&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;data&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 25 50)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(a 100)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/main)&quot;, :offset 21, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1527512910676">{:repl-history {:ide [], :local [{:command &quot;(vector? '(1 2 3 4))&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(seq '(1 2 3 4))&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(list (seq '(1 2 3 4)))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(to-array '(1 2 3 4))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;'(to-array '(1 2 3 4))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]) 25 0.5 0.5)&quot;, :offset 121, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/select '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]))&quot;, :offset 110, :ns &quot;user&quot;} {:command &quot;(def data '([100 200 0.3472222222222222] [100 200 0.4861111111111111] [0 0 0.16666666666666666]))&quot;, :offset 97, :ns &quot;user&quot;} {:command &quot;(nth data 0)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth data 2)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth [100 200 0.3472222222222222] 0)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(nth [100 200 0.3472222222222222] 1)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(nth [0 0 0.16666666666666666] 0)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(nth [0 0 0.16666666666666666] 1)&quot;, :offset 33, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 100 0 25 0.5)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/cross 200 0 25 0.5)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(conj [] (me.juhezi.core/mutate (nth [0 100] 0) 25 0.5) ;变异\n      (me.juhezi.core/mutate (nth [0 200] 0) 25 0.5))&quot;, :offset 113, :ns &quot;user&quot;} {:command &quot;(conj [] (me.juhezi.core/mutate (nth [0 100] 1) 25 0.5) ;变异\n      (me.juhezi.core/mutate (nth [0 200] 1) 25 0.5))&quot;, :offset 113, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.5 0.5)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 5 1 0.5)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 0.5)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(me.juhezi.core/evolve data 25 0 0.5)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0 1)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0 0)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.5 0)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 0)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 1 1)&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.9 0.8)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.1 0.1)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.9 0.9)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 25 0.2 0.2)&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(range 20)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 50 25 0.2 0.2)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(data)&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(a 100)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 25 50)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(list 0 01)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(conj '(1 2 3) '(2 4 5))&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(conj '(1 2 3) 3)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(conj '(1 2 3) 2 4 5)&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(conj '(1 2 3) (1 2 3 4))&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(conj '(1 2 3) '(1 2 3 4))&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(nth '(1 2) 0)&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(repeat 20 (println 12))&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot;(repeat 20 (+ 2 1))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(count (me.juhezi.core/main))&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(print \&quot;Hello\&quot;)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 25 1000)&quot;, :offset 34, :ns &quot;Hello&quot;} {:command &quot;(me.juhezi.creator/create 25 5000)&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(def data (me.juhezi.creator/create 25 5000))&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;data&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/calculate_survival_probability data)&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate data)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/evolve data 5000 25 0.8 0.9)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;((me.juhezi.local-calculate/calculate\n   (me.juhezi.creator/create 25 100)))&quot;, :offset 76, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 25 100))&quot;, :offset 73, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 10 100))&quot;, :offset 73, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 11 3))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 20 3))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 15 3))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 16 3))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 17 3))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 18 3))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate\n  (me.juhezi.creator/create 19 3))&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 487073 25)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 195148 25)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 440025 25)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 1173 25)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 1173 936175)&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 936175 25)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 25)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 25))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 9306175 25)&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/decode 19006175 25)&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate ([176129 190726] [104044 141803]) 25)&quot;, :offset 74, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 0.5 0.7)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function -9.709681859901007 -9.883682724347196)&quot;, :offset 74, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function -9.709681859901007 -8.883682724347196)&quot;, :offset 74, :ns &quot;user&quot;} {:command &quot;(Math/pow 2 24)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(int (Math/pow 2 24))&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function (me.juhezi.local-calculate/decode 0 25) -9.883682724347196)&quot;, :offset 95, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function (me.juhezi.local-calculate/decode 10000 25) -9.883682724347196)&quot;, :offset 99, :ns &quot;user&quot;} {:command &quot;(me.juhezi.creator/create 25 10)&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 23635259 25278692)&quot;, :offset 54, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function (me.juhezi.local-calculate/decode 14708955 25))&quot;, :offset 83, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function (me.juhezi.local-calculate/decode 14708955 25)\n                                    (me.juhezi.local-calculate/decode 18789232 25))&quot;, :offset 166, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/hello ([5325746 4571858\n                                   [18656469 30558442]\n                                   [23635259 25278692]\n                                   [3554915 29855217]\n                                   [14708955 18789232]\n                                   [28155339 27931773]\n                                   [11419228 24653388]\n                                   [7665151 16455075]\n                                   [361756 16325663]\n                                   [2452019 9209519]]))&quot;, :offset 542, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/hello '([5325746 4571858]\n                                   [18656469 30558442]\n                                   [23635259 25278692]\n                                   [3554915 29855217]\n                                   [14708955 18789232]\n                                   [28155339 27931773]\n                                   [11419228 24653388]\n                                   [7665151 16455075]\n                                   [361756 16325663]\n                                   [2452019 9209519]))&quot;, :offset 543, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/hello '([5325746 4571858]\n                                   [18656469 30558442]\n                                   [23635259 25278692]\n                                   [3554915 29855217]\n                                   [14708955 18789232]\n                                   [28155339 27931773]\n                                   [11419228 24653388]\n                                   [7665151 16455075]\n                                   [361756 16325663]\n                                   [2452019 9209519]) 25)&quot;, :offset 546, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate '([5325746 4571858]\n                                       [18656469 30558442]\n                                       [23635259 25278692]\n                                       [3554915 29855217]\n                                       [14708955 18789232]\n                                       [28155339 27931773]\n                                       [11419228 24653388]\n                                       [7665151 16455075]\n                                       [361756 16325663]\n                                       [2452019 9209519]) 25)&quot;, :offset 586, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate (me.juhezi.creator/create 25 50) 25)&quot;, :offset 73, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate (me.juhezi.creator/create 25 500) 25)&quot;, :offset 74, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate (me.juhezi.creator/create 25 5000) 25)&quot;, :offset 75, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/calculate (me.juhezi.creator/create 25 50000) 25)&quot;, :offset 76, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 0 0 )&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 0 -10)&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function 10 -10)&quot;, :offset 43, :ns &quot;user&quot;} {:command &quot;(me.juhezi.local-calculate/function -10 -10)&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(me.juhezi.core/main)&quot;, :offset 21, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -162,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.me.juhezi.RedisControllerKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -193,6 +212,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="me.juhezi.RedisControllerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Atticus" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="me.juhezi.RedisControllerKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -215,6 +244,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Clojure REPL.hello" />
+      <item itemvalue="Kotlin.me.juhezi.RedisControllerKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.me.juhezi.RedisControllerKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -230,12 +268,12 @@
       <workItem from="1527316039675" duration="1000000" />
       <workItem from="1527317052759" duration="14302000" />
       <workItem from="1527494401824" duration="1059000" />
-      <workItem from="1527495572169" duration="2668000" />
+      <workItem from="1527495572169" duration="7182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23064000" />
+    <option name="totallyTimeSpent" value="27578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,14 +285,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="right" x="177" y="45" width="1043" height="855" id="REPL" order="3" sideWeight="0.50128204" side_tool="true" type="WINDOWED" visible="true" weight="0.7539342" />
+      <window_info active="true" anchor="right" x="92" y="45" width="1043" height="855" id="REPL" order="3" sideWeight="0.50128204" side_tool="true" type="WINDOWED" visible="true" weight="0.7539342" />
       <window_info anchor="right" id="Leiningen" order="3" sideWeight="0.49871793" weight="0.3297568" />
       <window_info anchor="right" id="Flutter Outline" order="3" />
       <window_info id="Capture Tool" order="2" />
@@ -265,13 +303,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948717" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13090129" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2453505" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
@@ -291,7 +330,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -400,20 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/Cellar/clojure/1.9.0.273/libexec/clojure-tools-1.9.0.273.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -421,10 +446,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/redis_controller.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/creator.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/RedisController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/juhezi/local_calculate.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/juhezi/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="127" selection-end-column="80" />
+        <state relative-caret-position="321">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -504,7 +557,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Clojure SDK</last-edited>
+          <last-edited>jedis-2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
