@@ -100,6 +100,7 @@
 ; 循环 25 次
 ; 生成 50 个新的个体
 (defn single_individual_evolve [data size chromosome_size crossover_probability mutation_probability]
+  (println (class crossover_probability))
   (reduce (fn [children index]
             (let [child (single_chromosome_evolve data chromosome_size crossover_probability mutation_probability)]
               (conj children (nth child 0) (nth child 1))))

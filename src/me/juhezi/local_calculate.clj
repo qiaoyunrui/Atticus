@@ -31,6 +31,3 @@
 ; complete
 (defn calculate [data chromosome_size]
   (map #(conj % (function (decode (nth % 0) chromosome_size) (decode (nth % 1) chromosome_size))) data))
-
-(defn hello [data chromosome_size]
-  (map #(conj % (function (decode (nth % 0) chromosome_size) (decode (nth % 1) chromosome_size))) data))
