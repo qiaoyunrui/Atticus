@@ -85,10 +85,10 @@
         index2 (select data)
         individual1 (nth data index1)                       ;选择
         individual2 (nth data index2)
-        individual1_x (nth individual1 0)                   ;交叉
-        individual1_y (nth individual1 1)
-        individual2_x (nth individual2 0)
-        individual2_y (nth individual2 1)
+        individual1_x (int (nth individual1 0))                 ;交叉
+        individual1_y (int (nth individual1 1))
+        individual2_x (int (nth individual2 0))
+        individual2_y (int (nth individual2 1))
         new_chromosome_x (cross individual1_x individual2_x chromosome_size crossover_probability) ;x1 x2
         new_chromosome_y (cross individual1_y individual2_y chromosome_size crossover_probability)
         new_individual1 (conj [] (mutate (nth new_chromosome_x 0 0) chromosome_size mutation_probability) ;变异
@@ -97,10 +97,25 @@
                               (mutate (nth new_chromosome_y 1) chromosome_size mutation_probability))]
     (list new_individual1 new_individual2)))                ; 返回两个新的
 
+(defn demo [data chromosome_size crossover_probability mutation_probability]
+  (let [index1 (select data)
+        index2 (select data)
+        individual1 (nth data index1)                       ;选择
+        individual2 (nth data index2)
+        individual1_x (int (nth individual1 0))                 ;交叉
+        individual1_y (int (nth individual1 1))
+        individual2_x (int (nth individual2 0))
+        individual2_y (int (nth individual2 1))]
+    (println index1 index2 individual1 individual2 individual1_x individual1_y individual2_x individual2_y
+             (class individual1_x)
+             (int individual2_y))))
+
+
+
+
 ; 循环 25 次
 ; 生成 50 个新的个体
 (defn single_individual_evolve [data size chromosome_size crossover_probability mutation_probability]
-  (println (class crossover_probability))
   (reduce (fn [children index]
             (let [child (single_chromosome_evolve data chromosome_size crossover_probability mutation_probability)]
               (conj children (nth child 0) (nth child 1))))
